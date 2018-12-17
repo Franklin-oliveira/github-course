@@ -1,0 +1,24 @@
+- Para o usuário
+
+Nome: git config --global user.name "Franklin"
+
+Email: git config --global user.email "franklin.alves.oliveira@gmail.com"
+
+Editor principal: git config --global core.editor 
+
+
+### Verifica as configurações salvas
+
+git config user.name
+
+git config --list   (obs: mostra tudo o que está salvo)
+
+
+
+- Inicializando o repositório do projeto
+
+Dentro da pasta (no terminal), digitar: git init
+
+OBS: cria uma nova pasta chamada .git/ com os arquivos de configuração, branch padrão, branches existentes, hooks (gatilhos para fazer certas ações no projeto), outras coisas relacionadas aos objetos e referências.
+
+# Github 

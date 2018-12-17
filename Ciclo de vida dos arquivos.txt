@@ -1,0 +1,21 @@
+CICLO DE VIDA DOS STATUS DOS ARQUIVOS 
+
+- Untracked: momento em que o arquivo acabou de ser adicionado no repositório, mas ainda não foi visto pelo git (não foi marcada nenhuma versão desse arquivo). 
+
+- Unmodified: depois de adicionado, ele é enquadrado nessa categoria (não teve nenhuma modificação) 
+
+- Modified: arquivo modificado. 
+
+- Staged: arquivo jogado em uma área onde será criada a versão (staged). O arquivo vai ficar pronto para ser enviado no fim da versão. Após o commit, os arquivos voltam a ser do estado "unmodified".
+
+
+COMANDOS
+
+git status (exibe os status dos arquivos no repositório)
+git add <nome do arquivo> (passa a rastrear o arquivo pelo git)
+
+OBS: se o arquivo for alterado, é necessário executar o comando git add novamente para incorporar as alterações. 
+
+git commit -m "Comentário informando o que você fez." (pega todos os arquivos do repositório e cria uma versão - snapshot)
+
+OBS: se tentar commitar os arquivos modificados sem adicionar as alterções, vai gerar um erro. 

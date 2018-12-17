@@ -1,0 +1,24 @@
+VISUALIZANDO LOGS
+
+git log  -  exibe o histórico de commits (registros de versões)
+
+git log --decorate    (mostra informações adicionais. Ex: de qual branch para qual branch? houve merge? etc...)
+
+git log --author="Fran" (lista todas as info. cujo nome do autor tem "Fran")
+
+
+git shortlog  (mostra em ordem alfabética quais foram os autores, quantos commits fizeram, e quais foram).
+
+git shortlog -sn (mostra apenas o autor e a qtde. de commits)
+
+
+git log --graph (mostra informações gráficas do que está acontecendo com os branches e versões)
+
+
+git show ***hash*** (hash = código único de identificação do commit)
+
+
+
+VISUALIZANDO O DIFF
+
+

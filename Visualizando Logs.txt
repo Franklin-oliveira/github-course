@@ -19,6 +19,7 @@ git show ***hash*** (hash = código único de identificação do commit)
 
 
 
+
 VISUALIZANDO O DIFF
 
 

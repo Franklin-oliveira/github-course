@@ -23,3 +23,10 @@ git show ***hash*** (hash = código único de identificação do commit)
 VISUALIZANDO O DIFF
 
 
+git diff   (mostra o que foi acrescentado ou removido dos arquivos - diferença)
+git diff --name-only (mostra apenas o nome dos arquivos modificados)
+
+git commit -am "**mensagem**"  (faz o commit dos arquivos modificados - OBS: apenas funciona se o arquivo já existia previamente)
+
+
+

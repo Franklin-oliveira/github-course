@@ -1,0 +1,22 @@
+DESFAZENDO COISAS
+
+git checkout <nome do arquivo>  -  desfaz as últimas alterações
+
+
+# se já tiver adicionado o arquivo para o unstaged, executar:
+
+git reset HEAD <nome do arquivo>
+
+
+# se já tiver feito commit:
+
+git reset --soft **hash (1 commit antes)**  (desfaz o commit, mas o arquivo já fica staged com as modificações)
+
+          --mixed (desfaz o commit, retorna os arquivos como modified - vantagem: podemos ver as diferenças e modificar a vontade)
+
+          --hard  (desfaz o commit e ignora tudo o que foi feito nele)
+
+
+OBS: Tomar cuidado!!! git reset altera o histórico do commit. (pode dar problema principalmente se já tiver feito o push para um repositório remoto - conflito entre o que está no repositório e o que você tem na sua máquina)
+
+

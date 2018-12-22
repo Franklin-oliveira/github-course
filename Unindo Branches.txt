@@ -1,0 +1,23 @@
+- Merge
+
+    Vantagem: Operação nao destrutiva
+
+    Desvantagens: 
+                1- Necessita de um commit extra para fazer a união dos branches
+                2- Histórico poluído 
+
+
+
+- Rebase: 
+
+    Vantagem: 
+                1- Evita commits extras
+                2- Histórico linear
+
+    Desvantagem: Perde a ordem cronológica
+
+
+Para mais informações: https://pt.stackoverflow.com/questions/6189/git-merge-ou-rebase
+ 
+
+

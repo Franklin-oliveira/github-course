@@ -1,0 +1,39 @@
+- O que são branches?
+
+"É um ponteiro móvel que leva a um commit"
+
+Primeiro branch ao criar todo repositório: Master. 
+
+Podemos criar um novo branch apontando a um mesmo ou outro commit.
+
+
+
+- Por que usar?
+
+Vantagens: 
+            1- podemos modificar os arquivos sem alterar o local principal (master)
+            2- é facilmente "desligável"
+            3- múltiplas pessoas podem estar trabalhando no mesmo projeto (branches diferentes)
+            4- evita conflitos
+
+
+
+- Criando um branch
+
+git checkout -b <nome do branch>
+git branch (lista os branches)
+
+
+
+
+- Movendo e deletando branches
+
+mover: git checkout <nome do branch>
+apagar: git branch -D <nome do branch>
+
+
+
+
+
+
+ 

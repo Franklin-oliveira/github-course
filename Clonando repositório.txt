@@ -1,0 +1,7 @@
+- Clonando (copiando) repositórios do github para a máquina local. 
+
+Comando: git clone <link_do_repositório> <novo_nome_para_a_pasta>
+
+
+
+

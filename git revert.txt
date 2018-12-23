@@ -1,0 +1,7 @@
+Git revert
+
+faz um novo commit revertendo as modificações, mantendo o commit anterior (possibilitando que você volte e analise o que tinha de errado nesse commit). 
+
+
+comando: 
+- git revert ***hash*** 

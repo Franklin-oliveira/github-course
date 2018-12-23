@@ -1,0 +1,30 @@
+Versionando com Tags
+
+
+comandos: 
+
+- git tag -a 1.0.0 -m "Mensagem"
+
+- git push origin master --tags  (subindo as tags para o github)
+
+- git tag (exibe uma lista de tags criadas)
+
+
+
+
+Apagando Tags e Branches Remotos
+
+
+- apagando localmente: 
+
+    git tag -d *nome da tag*
+    git branch -d *nome do branch*
+
+
+- remotamente: 
+    
+    git push origin :1.0.0 (substituit 1.0.0 pelo nome da tag que deseja apagar)
+    
+    
+
+

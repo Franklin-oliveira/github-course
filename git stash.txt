@@ -1,0 +1,16 @@
+Git stash
+
+Guarda informações que ainda não foram commitadas em um arquivo, o qual podemos usar se necessário. 
+
+comandos: 
+
+- git stash  (salva as mudanças em um arquivo)
+
+- git stash apply  (aplica as mudanças salvas)
+
+- git stash list  (exibe uma lista com todos os arquivos stash)
+
+- git stash clear  (limpa tudo que estiver no stash)
+
+
+Exemplo de uso: suponha que você fez algumas alterações em seu diretório e que, por algum motivo, precisa trocar de branch. Suponha ainda que você não quer fazer um commit porque não finalizou o que estava fazendo. Nesse caso, o git stash é útil porque armazena temporariamente as alterações de forma que você pode acessá-las facilmente quando necessário. 

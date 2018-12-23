@@ -1,0 +1,8 @@
+Alias: atalhos de comandos
+
+
+criando um atalho: 
+
+   Exemplo de um atalho para o git status, no escopo global (novo comando será git s):  git config --global alias.s status
+
+

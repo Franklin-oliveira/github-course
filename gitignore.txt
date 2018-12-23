@@ -1,0 +1,16 @@
+Especifica arquivos para ignorar (não trackear).
+
+ 
+Exemplo: arquivos de senhas. 
+
+
+Documentação: https://git-scm.com/docs/gitignore
+
+Templates: https://github.com/github/gitignore
+
+
+Passos: 
+
+    1- Criar um arquivo .gitignore
+    2- Especificar o nome (ou padrões com caracteres coringa) dos arquivos a serem ignorados. 
+    3- Salvar o arquivo. (Note que, ao executar o comando git status, os arquivos na lista do .gitignore não serão exibidos / trackeados)
